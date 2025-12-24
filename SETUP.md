@@ -228,10 +228,10 @@ def check_python_version():
     version = sys.version_info
     print(f"Python version: {version.major}.{version.minor}.{version.micro}")
     if version.major >= 3 and version.minor >= 8:
-        print("✓ Python version is compatible")
+        print("[OK] Python version is compatible")
         return True
     else:
-        print("✗ Python version must be 3.8 or higher")
+        print("[FAIL] Python version must be 3.8 or higher")
         return False
 
 def check_packages():
@@ -253,9 +253,9 @@ def check_packages():
     for package, min_version in required.items():
         try:
             version = pkg_resources.get_distribution(package).version
-            print(f"✓ {package}: {version}")
+            print(f"[OK] {package}: {version}")
         except pkg_resources.DistributionNotFound:
-            print(f"✗ {package}: NOT INSTALLED")
+            print(f"[FAIL] {package}: NOT INSTALLED")
             all_installed = False
     
     return all_installed
@@ -277,9 +277,9 @@ def check_imports():
     for module in imports:
         try:
             __import__(module)
-            print(f"✓ {module}")
+            print(f"[OK] {module}")
         except ImportError as e:
-            print(f"✗ {module}: {e}")
+            print(f"[FAIL] {module}: {e}")
             all_imported = False
     
     return all_imported
@@ -297,9 +297,9 @@ if __name__ == "__main__":
     
     print("\n" + "=" * 50)
     if all(checks):
-        print("✓ All checks passed! Setup is complete.")
+        print("[OK] All checks passed! Setup is complete.")
     else:
-        print("✗ Some checks failed. Please review the errors above.")
+        print("[FAIL] Some checks failed. Please review the errors above.")
     print("=" * 50)
 ```
 
@@ -588,6 +588,6 @@ pip install --upgrade tensorflow
 
 ---
 
-**Setup Complete! Ready to start forecasting! 📊**
+**Setup Complete! Ready to start forecasting!**
 
 For next steps, see [USAGE.md](USAGE.md).

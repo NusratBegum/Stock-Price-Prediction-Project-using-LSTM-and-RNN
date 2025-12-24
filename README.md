@@ -1,4 +1,4 @@
-# 📈 Stock Price Prediction using LSTM and RNN
+# Stock Price Prediction using LSTM and RNN
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
@@ -7,7 +7,7 @@
 
 A comprehensive deep learning project that uses Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM) networks to predict stock prices based on historical data and technical indicators.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project demonstrates the application of deep learning techniques for time series forecasting in financial markets. It predicts future stock closing prices using historical price data and technical indicators such as RSI, EMA, MACD, and Bollinger Bands.
 
@@ -20,16 +20,16 @@ This project demonstrates the application of deep learning techniques for time s
 - **Future Forecasting**: Recursive prediction for next 30 days
 - **Interactive Visualizations**: Rich matplotlib and seaborn visualizations
 
-## 📊 Dataset
+## Dataset
 
 - **Source**: [NASDAQ Stock Market Dataset](https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset) from Kaggle
 - **Stock Analyzed**: Apple Inc. (AAPL)
 - **Time Period**: 1980-12-12 to 2020-04-01 (9,909 trading days)
 - **Features**: Open, High, Low, Close, Adjusted Close, Volume
 
-## 🚀 Getting Started
+## Getting Started
 
-> **⚡ Quick Start**: Want to get running fast? See [QUICKSTART.md](QUICKSTART.md) for a 5-minute setup guide!
+> **Quick Start**: Want to get running fast? See [QUICKSTART.md](QUICKSTART.md) for a 5-minute setup guide!
 
 ### Prerequisites
 
@@ -62,7 +62,7 @@ This project demonstrates the application of deep learning techniques for time s
    jupyter notebook main.ipynb
    ```
 
-## 📓 Notebook Structure
+## Notebook Structure
 
 The project is organized into 16 comprehensive sections:
 
@@ -85,7 +85,7 @@ The project is organized into 16 comprehensive sections:
 | **15. Limitations** | Discussion of challenges and constraints |
 | **16. Conclusions** | Key findings and recommendations |
 
-## 🧠 Models Implemented
+## Models Implemented
 
 ### 1. Simple RNN
 - Basic recurrent architecture
@@ -104,7 +104,7 @@ The project is organized into 16 comprehensive sections:
 - Dropout regularization
 - Bidirectional option available
 
-## 📈 Model Performance
+## Model Performance
 
 Example performance metrics on test data:
 
@@ -116,7 +116,7 @@ Example performance metrics on test data:
 
 *Note: Actual values will be generated when you run the notebook*
 
-## 🔧 Technical Indicators
+## Technical Indicators
 
 The project implements several technical indicators:
 
@@ -125,7 +125,7 @@ The project implements several technical indicators:
 - **MACD (Moving Average Convergence Divergence)**: Trend and momentum indicator
 - **Bollinger Bands**: Volatility indicator with upper/lower bands
 
-## 📊 Visualizations
+## Visualizations
 
 The notebook includes various visualizations:
 
@@ -138,7 +138,7 @@ The notebook includes various visualizations:
 - Error distribution analysis
 - Future price forecasts
 
-## ⚠️ Important Disclaimer
+## Important Disclaimer
 
 **This project is for EDUCATIONAL PURPOSES ONLY.**
 
@@ -148,7 +148,7 @@ The notebook includes various visualizations:
 - Always consult financial professionals for investment advice
 - Markets can be influenced by unpredictable external factors
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 This project demonstrates:
 
@@ -159,7 +159,7 @@ This project demonstrates:
 5. **Model Evaluation**: Comprehensive performance assessment
 6. **Financial Markets**: Understanding stock price dynamics
 
-## 🔬 Methodology
+## Methodology
 
 ### Data Preprocessing
 1. Load historical stock data
@@ -180,7 +180,7 @@ This project demonstrates:
 3. Compare direction accuracy
 4. Visualize predictions
 
-## 📚 Dependencies
+## Dependencies
 
 Main libraries used:
 
@@ -194,29 +194,29 @@ Main libraries used:
 
 See `requirements.txt` for complete list with versions.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request. For major changes, please open an issue first to discuss what you would like to change.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Author
+## Author
 
 **Nusrat Begum**
 
 - GitHub: [@NusratBegum](https://github.com/NusratBegum)
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Dataset: [NASDAQ Stock Market Dataset](https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset) by Jackson Crow on Kaggle
 - Inspiration: Financial time series forecasting research
 - TensorFlow/Keras documentation and tutorials
 
-## 📚 Documentation
+## Documentation
 
 Complete documentation is available:
 
@@ -226,11 +226,11 @@ Complete documentation is available:
 - **[CONTRIBUTING.md](CONTRIBUTING.md)**: Guidelines for contributing to the project
 - **[CHANGELOG.md](CHANGELOG.md)**: Project version history and changes
 
-## 📧 Contact
+## Contact
 
 For questions or feedback, please open an issue in this repository.
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 Potential improvements for this project:
 
@@ -243,7 +243,7 @@ Potential improvements for this project:
 - [ ] Add more stocks for comparative analysis
 - [ ] Explore reinforcement learning for automated trading
 
-## 📖 References
+## References
 
 - Hochreiter, S., & Schmidhuber, J. (1997). Long Short-Term Memory. Neural Computation.
 - Graves, A. (2012). Supervised Sequence Labelling with Recurrent Neural Networks.
