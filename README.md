@@ -29,6 +29,8 @@ This project demonstrates the application of deep learning techniques for time s
 
 ## 🚀 Getting Started
 
+> **⚡ Quick Start**: Want to get running fast? See [QUICKSTART.md](QUICKSTART.md) for a 5-minute setup guide!
+
 ### Prerequisites
 
 - Python 3.8 or higher
@@ -213,6 +215,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Dataset: [NASDAQ Stock Market Dataset](https://www.kaggle.com/datasets/jacksoncrow/stock-market-dataset) by Jackson Crow on Kaggle
 - Inspiration: Financial time series forecasting research
 - TensorFlow/Keras documentation and tutorials
+
+## 📚 Documentation
+
+Complete documentation is available:
+
+- **[QUICKSTART.md](QUICKSTART.md)**: Get up and running in 5 minutes
+- **[SETUP.md](SETUP.md)**: Detailed installation guide for all platforms
+- **[USAGE.md](USAGE.md)**: Comprehensive usage instructions and examples
+- **[CONTRIBUTING.md](CONTRIBUTING.md)**: Guidelines for contributing to the project
+- **[CHANGELOG.md](CHANGELOG.md)**: Project version history and changes
 
 ## 📧 Contact
 
