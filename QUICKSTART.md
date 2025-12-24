@@ -2,7 +2,7 @@
 
 Get up and running with the Stock Price Prediction project in just a few minutes!
 
-## ⚡ 5-Minute Setup
+## 5-Minute Setup
 
 ### 1. Prerequisites Check
 ```bash
@@ -53,7 +53,7 @@ jupyter notebook main.ipynb
 # - Wait for completion (~30-60 minutes)
 ```
 
-## 📊 What You'll Get
+## What You'll Get
 
 - **Data Analysis**: Comprehensive EDA of Apple stock (1980-2020)
 - **3 Models**: Simple RNN, Univariate LSTM, Multivariate LSTM
@@ -61,7 +61,7 @@ jupyter notebook main.ipynb
 - **Forecasts**: 30-day future price predictions
 - **Performance Metrics**: RMSE, MAE, MAPE, R², Direction Accuracy
 
-## 🎯 Expected Timeline
+## Expected Timeline
 
 | Step | Time | What Happens |
 |------|------|--------------|
@@ -72,7 +72,7 @@ jupyter notebook main.ipynb
 | Evaluation | 5 min | Generate predictions and metrics |
 | **Total** | **30-60 min** | Complete analysis |
 
-## 🚨 Common First-Time Issues
+## Common First-Time Issues
 
 ### Issue 1: Kaggle API Error
 ```
@@ -92,7 +92,7 @@ ModuleNotFoundError: No module named 'tensorflow'
 ```
 **Fix**: Make sure virtual environment is activated and run `pip install -r requirements.txt`
 
-## 📚 Next Steps
+## Next Steps
 
 After successful run:
 
@@ -100,24 +100,24 @@ After successful run:
 2. **Customize**: Try different stocks or parameters (see [USAGE.md](USAGE.md))
 3. **Contribute**: Improve models or add features (see [CONTRIBUTING.md](CONTRIBUTING.md))
 
-## 💡 Tips for First Run
+## Tips for First Run
 
 - **Be patient**: First run takes longer due to data download
 - **Check memory**: Close unnecessary applications
 - **Read outputs**: Each cell explains what's happening
 - **Save work**: Jupyter auto-saves, but save manually too
 
-## 🆘 Need Help?
+## Need Help?
 
 - **Full Setup Guide**: [SETUP.md](SETUP.md)
 - **Detailed Usage**: [USAGE.md](USAGE.md)
 - **Troubleshooting**: Check SETUP.md troubleshooting section
 - **Issues**: [GitHub Issues](https://github.com/NusratBegum/Stock-Price-Prediction-Project-using-LSTM-and-RNN/issues)
 
-## ⚠️ Important Reminder
+## Important Reminder
 
 This project is **for educational purposes only**. Do not use these predictions for actual trading decisions. Always consult financial professionals for investment advice.
 
 ---
 
-**Ready to start? Run the commands above and you'll be forecasting in minutes! 🚀**
+**Ready to start? Run the commands above and you'll be forecasting in minutes!**

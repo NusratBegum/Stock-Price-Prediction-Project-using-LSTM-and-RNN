@@ -491,4 +491,4 @@ If you encounter issues:
 
 ---
 
-**Happy Forecasting! 📈**
+**Happy Forecasting!**

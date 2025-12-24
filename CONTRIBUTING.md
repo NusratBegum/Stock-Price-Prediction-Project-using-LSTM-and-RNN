@@ -269,4 +269,4 @@ Contributors will be recognized in the project README. Thank you for helping mak
 
 ---
 
-**Happy Contributing! 🎉**
+**Happy Contributing!**

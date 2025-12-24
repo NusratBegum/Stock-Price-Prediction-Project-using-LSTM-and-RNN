@@ -588,6 +588,6 @@ pip install --upgrade tensorflow
 
 ---
 
-**Setup Complete! Ready to start forecasting! 📊**
+**Setup Complete! Ready to start forecasting!**
 
 For next steps, see [USAGE.md](USAGE.md).
