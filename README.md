@@ -7,6 +7,12 @@
 
 A comprehensive deep learning project that uses Recurrent Neural Networks (RNN) and Long Short-Term Memory (LSTM) networks to predict stock prices based on historical data and technical indicators.
 
+**Notebook:** [view with all outputs (nbviewer)](https://nbviewer.org/github/NusratBegum/Stock-Price-Prediction-Project-using-LSTM-and-RNN/blob/master/main.ipynb) · [open in Colab](https://colab.research.google.com/github/NusratBegum/Stock-Price-Prediction-Project-using-LSTM-and-RNN/blob/master/main.ipynb)
+
+![AAPL closing price, volume and daily range](docs/preview-1.png)
+
+![Moving averages, Bollinger bands, RSI and MACD](docs/preview-2.png)
+
 ## Project Overview
 
 This project demonstrates the application of deep learning techniques for time series forecasting in financial markets. It predicts future stock closing prices using historical price data and technical indicators such as RSI, EMA, MACD, and Bollinger Bands.
